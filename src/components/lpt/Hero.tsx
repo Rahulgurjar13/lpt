@@ -28,7 +28,7 @@ export function Hero({ onBook }: { onBook: () => void }) {
           {/* Headline */}
           <h1 className="h-display text-[clamp(44px,6vw,72px)] leading-[1.1] tracking-tight text-ink">
             The Prep That <br />
-            <span className="relative text-brand whitespace-nowrap">
+            <span className="relative text-brand inline-block">
               Transforms You
               <svg
                 className="absolute -bottom-2 left-0 w-full overflow-visible"
@@ -101,7 +101,7 @@ export function Hero({ onBook }: { onBook: () => void }) {
             </div>
 
             {/* Why LPT Paper Card */}
-            <div className="absolute -left-16 top-16 z-20 flex w-[280px] -rotate-3 flex-col rounded-xl bg-white p-8 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] border border-gray-100 transition-transform duration-500 hover:-translate-y-2 hover:-rotate-1">
+            <div className="absolute -left-2 sm:-left-8 lg:-left-16 top-4 lg:top-16 z-20 flex w-[220px] lg:w-[280px] -rotate-3 flex-col rounded-xl bg-white p-5 lg:p-8 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] border border-gray-100 transition-transform duration-500 hover:-translate-y-2 hover:-rotate-1">
               <h3 className="flex items-center gap-2 text-ink leading-none">
                 <span className="text-[44px] text-gray-800 -rotate-2" style={{ fontFamily: "'Caveat', cursive" }}>Why</span>
                 <span className="relative text-brand font-bold font-display text-[28px] tracking-tight">
@@ -140,7 +140,7 @@ export function Hero({ onBook }: { onBook: () => void }) {
             </div>
 
             {/* Bottom Right Floating Badge */}
-            <div className="absolute -bottom-6 -right-6 z-30 flex items-center gap-4 rounded-[2.5rem] bg-white p-2.5 pr-8 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.12)] border border-gray-50 transition-transform duration-500 hover:-translate-y-2 hover:rotate-2">
+            <div className="absolute -bottom-4 right-2 lg:-bottom-6 lg:-right-6 z-30 flex items-center gap-3 lg:gap-4 rounded-[2.5rem] bg-white p-2 lg:p-2.5 pr-6 lg:pr-8 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.12)] border border-gray-50 transition-transform duration-500 hover:-translate-y-2 hover:rotate-2">
               <div className="flex h-[56px] w-[56px] items-center justify-center rounded-full bg-[#DE2B3A] text-white shadow-inner">
                 <Award className="h-7 w-7" strokeWidth={2.5} />
               </div>

@@ -42,7 +42,7 @@ export function TrackRecord({ onBook }: { onBook: () => void }) {
                     }
                   >
                     <span className="icon-bubble">{s.icon}</span>
-                    <div className="mt-5 h-display text-4xl md:text-5xl">
+                    <div className="mt-5 h-display text-3xl sm:text-4xl md:text-5xl">
                       <CountUp to={s.v} />
                       <span className="text-brand">{s.s}</span>
                     </div>
